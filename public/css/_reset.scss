@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: $spartan;
+    text-decoration: none;
+    color: black;
+}
+// ################################## Typography 
+h1 { 
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -1px;
+}
+h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: -0.625px;
+
+}
+h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.8px;
+    img {
+        margin-left: 15px;
+    }
+    span {
+        color: #7E88C3;
+    }
+}
+h4 {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: -0.25px;
+    img {
+        margin-right: 15px;
+    }
+}
+.body_1 {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: -0.25px;
+}
+.body_2 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.229167px;
+}
+
+// ############################ Buttons 
+.btn {
+    border: none;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.25px;
+    border-radius: 24px;
+    padding: 17px 24px;
+    transition: all .3s ease-in-out;
+    background-color: transparent;
+    cursor: pointer;
+    img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50% !important;
+    }
+}
+.btn_2 {
+    color: #FFFFFF;
+    background: #7C5DFA;
+    &:hover {
+        background: #9277FF;
+    }
+}
+
+.btn_3 {
+    color: #7E88C3;
+    background-color: #F9FAFE; ;
+    &:hover {
+        background-color:#DFE3FA ;
+    }
+}
+.btn_3_dark {
+    background-color: #252945;
+    color: #DFE3FA;
+    &:hover {
+        background-color: #FFFFFF;
+    }
+}
+
+.btn_4 {
+    background-color: #373B53;
+    color: #888EB0;
+    &:hover {
+        background-color: #0C0E16;
+    }
+}
+
+.btn_4_dark {
+    background-color: #373B53;
+    color: #DFE3FA;
+    &:hover {
+        background-color: #1E2139;
+    }
+}
+
+.btn_5 {
+    background-color: #EC5757;
+    color: #FFFFFF;
+    &:hover {
+        background-color: #FF9797;
+    }
+}
+
+// ##################################### Form
+label {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.25px;
+}
+.label_light {
+    color: #7E88C3;
+}
+.label_dark {
+    color: #DFE3FA;
+}
+// ################################### Fields
+form input  , select{
+    width: 100%;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: -0.25px;
+    color: #0C0E16;
+    background: #FFFFFF;
+    border: 1px solid #DFE3FA;
+    border-radius: 4px;
+    padding: 17px 20px;
+    outline: none;
+}
+.input_light {
+    border: 1px solid #DFE3FA;
+    color: #0C0E16;
+}
+
+.input_dark {
+    background: #1E2139;
+    color: #FFFFFF;
+}
+
+// ############################ Utile 
+
+%space_between {
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+}
+
+%center {
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+}
